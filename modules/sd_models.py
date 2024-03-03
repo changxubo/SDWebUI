@@ -19,7 +19,8 @@ from modules.shared import opts
 import tomesd
 import numpy as np
 
-model_dir = "Stable-diffusion"
+#model_dir = "Stable-diffusion"
+model_dir = "checkpoints"
 model_path = os.path.abspath(os.path.join(paths.models_path, model_dir))
 
 checkpoints_list = {}

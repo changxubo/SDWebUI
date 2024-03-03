@@ -8,7 +8,7 @@ import glob
 from copy import deepcopy
 
 
-vae_path = os.path.abspath(os.path.join(paths.models_path, "VAE"))
+vae_path = os.path.abspath(os.path.join(paths.models_path, "vae"))
 vae_ignore_keys = {"model_ema.decay", "model_ema.num_updates"}
 vae_dict = {}
 
